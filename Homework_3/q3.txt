@@ -1,0 +1,64 @@
+Script started on 2025-02-18 20:30:49+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="262" LINES="18"]
+[0;32m@Spyro3277 [0m➜ [1;34m/workspaces/csci-330-homeworks-Spyro3277/Homework_3 [0;36m([1;31mmain[0;36m) [0m$ sbcl
+This is SBCL 1.4.3, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (load "bottomsort.lisp")
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_3/bottomsort.lisp
+; in: DEFUN BOTTOMSORT
+;     (MERGELIST (PARTITION LST))
+; 
+; caught STYLE-WARNING:
+;   undefined function: MERGELIST
+
+;     (PARTITION LST)
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARTITION
+; 
+; compilation unit finished
+;   Undefined functions:
+;     MERGELIST PARTITION
+;   caught 2 STYLE-WARNING conditions
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_3/bottomsort.lisp
+; in: DEFUN MERGELIST
+;     (MERGEPASS LST)
+; 
+; caught STYLE-WARNING:
+;   undefined function: MERGEPASS
+; 
+; compilation unit finished
+;   Undefined function:
+;     MERGEPASS
+;   caught 1 STYLE-WARNING condition
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_3/bottomsort.lisp
+; in: DEFUN MERGEPASS
+;     (MERGETWO (CAR LST) (CADR LST))
+; 
+; caught STYLE-WARNING:
+;   undefined function: MERGETWO
+; 
+; compilation unit finished
+;   Undefined function:
+;     MERGETWO
+;   caught 1 STYLE-WARNING condition
+
+T
+* (bottomsort '(89 43 4839 23 59 49083 589 340))
+
+(23 43 59 89 340 589 4839 49083)
+* (bottomsort '(789 32 43 89 29 50 432))
+
+(29 32 43 50 89 432 789)
+* (exit)
+[0;32m@Spyro3277 [0m➜ [1;34m/workspaces/csci-330-homeworks-Spyro3277/Homework_3 [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2025-02-18 20:31:18+00:00 [COMMAND_EXIT_CODE="0"]
