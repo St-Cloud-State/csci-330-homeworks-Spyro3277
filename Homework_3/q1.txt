@@ -1,0 +1,6 @@
+Script started on Tue Feb 18 22:57:02 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                                         [0m[27m[24m[Jbryanerickson@MacBook-Air-370 Homework_3 % [K[?2004hgg++ q1.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                         [0m[27m[24m[Jbryanerickson@MacBook-Air-370 Homework_3 % [K[?2004h../a.out[?2004l
+6 32 47 54 90 543 746 1436 6453 6543 [1m[7m%[27m[1m[0m                                                                                                                                                                         [0m[27m[24m[Jbryanerickson@MacBook-Air-370 Homework_3 % [K[?2004heexit[?2004l
+
+Script done on Tue Feb 18 22:57:18 2025
