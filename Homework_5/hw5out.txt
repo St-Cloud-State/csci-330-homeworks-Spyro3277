@@ -1,0 +1,455 @@
+Script started on 2025-03-18 04:25:03+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="231" LINES="15"]
+[0;32m@Spyro3277 [0m➜ [1;34m/workspaces/csci-330-homeworks-Spyro3277/Homework_5 [0;36m([1;31mmain[0;36m) [0m$ sbcl
+This is SBCL 1.4.3, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (load " "parser.lisp")
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_5/parser.lisp
+; in: DEFUN PARSEI
+;     (PARSEE (CDR STR))
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARSEE
+
+;     (PARSEIPRIME (PARSEE (CDR STR)))
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARSEIPRIME
+; 
+; compilation unit finished
+;   Undefined functions:
+;     PARSEE PARSEIPRIME
+;   caught 2 STYLE-WARNING conditions
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_5/parser.lisp
+; in: DEFUN PARSEE
+;     (PARSEEPRIME (PARSEG STR))
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARSEEPRIME
+
+;     (PARSEG STR)
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARSEG
+; 
+; compilation unit finished
+;   Undefined functions:
+;     PARSEEPRIME PARSEG
+;   caught 2 STYLE-WARNING conditions
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_5/parser.lisp
+; in: DEFUN PARSEIPRIME
+;     (PARSES (CDR STR))
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARSES
+; 
+; compilation unit finished
+;   Undefined function:
+;     PARSES
+;   caught 1 STYLE-WARNING condition
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_5/parser.lisp
+; in: DEFUN PARSES
+;     (PARSEL (CDR STR))
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARSEL
+; 
+; compilation unit finished
+;   Undefined function:
+;     PARSEL
+;   caught 1 STYLE-WARNING condition
+
+; file: /workspaces/csci-330-homeworks-Spyro3277/Homework_5/parser.lisp
+; in: DEFUN PARSEL
+;     (PARSELPRIME (CDR STR))
+; 
+; caught STYLE-WARNING:
+;   undefined function: PARSELPRIME
+; 
+; compilation unit finished
+;   Undefined function:
+;     PARSELPRIME
+;   caught 1 STYLE-WARNING condition
+
+T
+* The following are good strings:
+
+debugger invoked on a UNBOUND-VARIABLE in thread
+#<THREAD "main thread" RUNNING {9461061}>:
+  The variable THE is unbound.
+
+Type HELP for debugger help, or (SB-EXT:EXIT) to exit from SBCL.
+
+restarts (invokable by number or by possibly-abbreviated name):
+  0: [ABORT] Exit debugger, returning to top level.
+
+(SB-INT:SIMPLE-EVAL-IN-LEXENV THE #<NULL-LEXENV>)
+0] (parseI '(i x o y s))
+
+(IN PARSE_I) 
+(I X O Y S) 
+(IN PARSE_E) 
+(X O Y S) 
+(IN PARSE_G) 
+(X O Y S) 
+(IN PARSE_E_PRIME) 
+(O Y S) 
+(IN PARSE_G) 
+(Y S) 
+(IN PARSE_E_PRIME) 
+(S) 
+(IN PARSE_I_PRIME) 
+(S) 
+(IN PARSE_S) 
+
+NIL(S) 
+0] (prse   arseI '(i x o y d s s b))
+
+(IN PARSE_I) 
+(I X O Y D S S B) 
+(IN PARSE_E) 
+(X O Y D S S B) 
+(IN PARSE_G) 
+(X O Y D S S B) 
+(IN PARSE_E_PRIME) 
+(O Y D S S B) 
+(IN PARSE_G) 
+(Y D S S B) 
+(IN PARSE_E_PRIME) 
+(D S S B) 
+(IN PARSE_I_PRIME) 
+(D S S B) 
+(IN PARSE_S) 
+(D S S B) 
+(IN PARSE_L) 
+(S S B) 
+(IN PARSE_L_PRIME) 
+(S B) 
+(IN PARSE_L) 
+
+NIL(B) 
+0] (parseI '(i w o y d s b))
+
+(IN PARSE_I) 
+(I W O Y D S B) 
+(IN PARSE_E) 
+(W O Y D S B) 
+(IN PARSE_G) 
+(W O Y D S B) 
+(IN PARSE_E_PRIME) 
+(O Y D S B) 
+(IN PARSE_G) 
+(Y D S B) 
+(IN PARSE_E_PRIME) 
+(D S B) 
+(IN PARSE_I_PRIME) 
+(D S B) 
+(IN PARSE_S) 
+(D S B) 
+(IN PARSE_L) 
+(S B) 
+(IN PARSE_L_PRIME) 
+(B) 
+(IN PARSE_L) 
+
+NILNIL 
+0] (parseI '(i y d s b))
+
+(IN PARSE_I) 
+(I Y D S B) 
+(IN PARSE_E) 
+(Y D S B) 
+(IN PARSE_G) 
+(Y D S B) 
+(IN PARSE_E_PRIME) 
+(D S B) 
+(IN PARSE_I_PRIME) 
+(D S B) 
+(IN PARSE_S) 
+(D S B) 
+(IN PARSE_L) 
+(S B) 
+(IN PARSE_L_PRIME) 
+(B) 
+(IN PARSE_L) 
+
+NILNIL 
+0] (parseI '(i z o x o y d s b))
+
+(IN PARSE_I) 
+(I Z O X O Y D S B) 
+(IN PARSE_E) 
+(Z O X O Y D S B) 
+(IN PARSE_G) 
+(Z O X O Y D S B) 
+(IN PARSE_E_PRIME) 
+(O X O Y D S B) 
+(IN PARSE_G) 
+(X O Y D S B) 
+(IN PARSE_E_PRIME) 
+(O Y D S B) 
+(IN PARSE_G) 
+(Y D S B) 
+(IN PARSE_E_PRIME) 
+(D S B) 
+(IN PARSE_I_PRIME) 
+(D S B) 
+(IN PARSE_S) 
+(D S B) 
+(IN PARSE_L) 
+(S B) 
+(IN PARSE_L_PRIME) 
+(B) 
+(IN PARSE_L) 
+
+NILNIL 
+0] (parseI '(i x o y o z o w d s b))
+
+(IN PARSE_I) 
+(I X O Y O Z O W D S B) 
+(IN PARSE_E) 
+(X O Y O Z O W D S B) 
+(IN PARSE_G) 
+(X O Y O Z O W D S B) 
+(IN PARSE_E_PRIME) 
+(O Y O Z O W D S B) 
+(IN PARSE_G) 
+(Y O Z O W D S B) 
+(IN PARSE_E_PRIME) 
+(O Z O W D S B) 
+(IN PARSE_G) 
+(Z O W D S B) 
+(IN PARSE_E_PRIME) 
+(O W D S B) 
+(IN PARSE_G) 
+(W D S B) 
+(IN PARSE_E_PRIME) 
+(D S B) 
+(IN PARSE_I_PRIME) 
+(D S B) 
+(IN PARSE_S) 
+(D S B) 
+(IN PARSE_L) 
+(S B) 
+(IN PARSE_L_PRIME) 
+(B) 
+(IN PARSE_L) 
+
+NILNIL 
+0] (parseI 'I i w d s b))
+; in:
+;     (PARSEI 'I W D S B)
+; 
+; caught STYLE-WARNING:
+;   The function was called with five arguments, but wants exactly one.
+; in:
+;     (PARSEI 'I W D S B)
+; 
+; caught WARNING:
+;   undefined variable: B
+; 
+; caught WARNING:
+;   undefined variable: D
+; 
+; caught WARNING:
+;   undefined variable: S
+; 
+; caught WARNING:
+;   undefined variable: W
+; 
+; compilation unit finished
+;   Undefined variables:
+;     B D S W
+;   caught 4 WARNING conditions
+;   caught 1 STYLE-WARNING condition
+
+debugger invoked on a UNBOUND-VARIABLE in thread
+#<THREAD "main thread" RUNNING {9461061}>:
+  The variable W is unbound.
+
+Type HELP for debugger help, or (SB-EXT:EXIT) to exit from SBCL.
+
+restarts (invokable by number or by possibly-abbreviated name):
+  0: [ABORT] Reduce debugger level (to debug level 1).
+  1:         Exit debugger, returning to top level.
+
+((LAMBDA (#:G395)) #<unused argument>)
+   source: (PARSEI 'I W D S B)
+0[2] (parseI '(i w d s b))
+
+(IN PARSE_I) 
+(I W D S B) 
+(IN PARSE_E) 
+(W D S B) 
+(IN PARSE_G) 
+(W D S B) 
+(IN PARSE_E_PRIME) 
+(D S B) 
+(IN PARSE_I_PRIME) 
+(D S B) 
+(IN PARSE_S) 
+(D S B) 
+(IN PARSE_L) 
+(S B) 
+(IN PARSE_L_PRIME) 
+(B) 
+(IN PARSE_L) 
+
+NILNIL 
+0[2] The following are bad strings:
+; in:
+;     (PROGN THE)
+; 
+; caught WARNING:
+;   undefined variable: THE
+; 
+; compilation unit finished
+;   Undefined variable:
+;     THE
+;   caught 1 WARNING condition
+
+debugger invoked on a UNBOUND-VARIABLE in thread
+#<THREAD "main thread" RUNNING {9461061}>:
+  The variable THE is unbound.
+
+Type HELP for debugger help, or (SB-EXT:EXIT) to exit from SBCL.
+
+restarts (invokable by number or by possibly-abbreviated name):
+  0: [ABORT] Reduce debugger level (to debug level 2).
+  1:         Reduce debugger level (to debug level 1).
+  2:         Exit debugger, returning to top level.
+
+((LAMBDA (#:G397)) #<unused argument>)
+   source: (PROGN THE)
+0[3] (parseI '(i z w o y s))
+
+(IN PARSE_I) 
+(I Z W O Y S) 
+(IN PARSE_E) 
+(Z W O Y S) 
+(IN PARSE_G) 
+(Z W O Y S) 
+(IN PARSE_E_PRIME) 
+(W O Y S) 
+(IN PARSE_I_PRIME) 
+(W O Y S) 
+(IN PARSE_S) 
+
+(ERR)(W O Y S) 
+0[3] (parseI '(i y x o z o y s))
+
+(IN PARSE_I) 
+(I Y X O Z O Y S) 
+(IN PARSE_E) 
+(Y X O Z O Y S) 
+(IN PARSE_G) 
+(Y X O Z O Y S) 
+(IN PARSE_E_PRIME) 
+(X O Z O Y S) 
+(IN PARSE_I_PRIME) 
+(X O Z O Y S) 
+(IN PARSE_S) 
+
+(ERR)(X O Z O Y S) 
+0[3] (parseI '(i x z e s))
+
+(IN PARSE_I) 
+(I X Z E S) 
+(IN PARSE_E) 
+(X Z E S) 
+(IN PARSE_G) 
+(X Z E S) 
+(IN PARSE_E_PRIME) 
+(Z E S) 
+(IN PARSE_I_PRIME) 
+(Z E S) 
+(IN PARSE_S) 
+
+(ERR)(Z E S) 
+0[3] (parseI '(x y o s b s))
+
+(IN PARSE_I) 
+
+(ERR)(X Y O S B S) 
+0[3] (parseI '(i y o x x s))
+
+(IN PARSE_I) 
+(I Y O X X S) 
+(IN PARSE_E) 
+(Y O X X S) 
+(IN PARSE_G) 
+(Y O X X S) 
+(IN PARSE_E_PRIME) 
+(O X X S) 
+(IN PARSE_G) 
+(X X S) 
+(IN PARSE_E_PRIME) 
+(X S) 
+(IN PARSE_I_PRIME) 
+(X S) 
+(IN PARSE_S) 
+
+(ERR)(X S) 
+0[3] (parseI '(i x o y o y o s d))
+
+(IN PARSE_I) 
+(I X O Y O Y O D) 
+(IN PARSE_E) 
+(X O Y O Y O D) 
+(IN PARSE_G) 
+(X O Y O Y O D) 
+(IN PARSE_E_PRIME) 
+(O Y O Y O D) 
+(IN PARSE_G) 
+(Y O Y O D) 
+(IN PARSE_E_PRIME) 
+(O Y O D) 
+(IN PARSE_G) 
+(Y O D) 
+(IN PARSE_E_PRIME) 
+(O D) 
+(IN PARSE_G) 
+(D) 
+(IN PARSE_E_PRIME) 
+(ERR) 
+(IN PARSE_I_PRIME) 
+(ERR) 
+(IN PARSE_S) 
+
+(ERR)(ERR) 
+0[3] (parseI '(i x o yo  o s w s b))
+
+(IN PARSE_I) 
+(I X O Y O S W S B) 
+(IN PARSE_E) 
+(X O Y O S W S B) 
+(IN PARSE_G) 
+(X O Y O S W S B) 
+(IN PARSE_E_PRIME) 
+(O Y O S W S B) 
+(IN PARSE_G) 
+(Y O S W S B) 
+(IN PARSE_E_PRIME) 
+(O S W S B) 
+(IN PARSE_G) 
+(S W S B) 
+(IN PARSE_E_PRIME) 
+(ERR) 
+(IN PARSE_I_PRIME) 
+(ERR) 
+(IN PARSE_S) 
+
+(ERR)(ERR) 
+0[3] (exit)
+[0;32m@Spyro3277 [0m➜ [1;34m/workspaces/csci-330-homeworks-Spyro3277/Homework_5 [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2025-03-18 04:30:06+00:00 [COMMAND_EXIT_CODE="0"]
